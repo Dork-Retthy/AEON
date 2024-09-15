@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+}
+.image{
+    background-image:url(../imge/shop-image.png);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
+.portal{
+    width: 80vh;
+    font-family: sans-serif;
+    color: rgb(180, 36, 98);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #fff;
+
+}
+.line{
+    background-color: rgb(180, 36, 98);
+    height: 40px;
+    width: 6px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+main{
+    width: 100px;
+    margin-left: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    height: 70px;
+}
+h4{
+    color: rgb(121, 120, 120);
+}
+.form{
+    display: grid;
+    row-gap: 10px;
+    width: 340px;
+    font-family: sans-serif;
+}
+button{
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(180, 36, 98);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.back{
+    text-align: center;
+    color: rgb(180, 36, 98);
+}
